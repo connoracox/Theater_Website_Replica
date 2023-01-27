@@ -55,6 +55,12 @@ nav li{
     margin: 20px;
 }
 
+@media (max-width:600px){
+    .header{
+        display:none;
+    }
+}
+
 nav ul{
     background-color: black;
     margin: 0;
@@ -64,7 +70,6 @@ nav ul{
 
 }
 nav{
-    grid-area: header;
     display: block;
     color:white;
 }
@@ -123,6 +128,13 @@ footer div{
     margin: 50px;
 }
 
+@media (max-width: 600px){
+    footer div{
+        display:flex;
+        flex-direction:column;
+    }
+}
+
 .nav1{
     list-style-type: none;
     font-family: 'Roboto', sans-serif;
@@ -132,7 +144,7 @@ footer div{
 }
 
 #theatre{
-    font-size: 20px;;
+    font-size: 20px;
 }
 
 .footertitle{
